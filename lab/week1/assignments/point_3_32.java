@@ -1,4 +1,4 @@
-package lab.a_1st.assg;
+package lab.week1.assignments;
 import java.util.Scanner;
 
 public class point_3_32 {
@@ -24,7 +24,6 @@ public class point_3_32 {
         }else{
           System.out.println("onit"); 
         }
+      }
     }
-    }
-    
 }
