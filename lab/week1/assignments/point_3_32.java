@@ -1,4 +1,4 @@
-package lab.week1.assignments;
+
 import java.util.Scanner;
 
 public class point_3_32 {
