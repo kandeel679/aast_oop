@@ -2,12 +2,12 @@ package lec.week2;
 
 public class Circle {
 
-    private double R;
+    public double R;
 
+    
+   private double PI = Math.PI;
 
-    double PI = Math.PI;
-
-    //constractor 
+    //(constractor) lsa mkhdnhosh
             public Circle(double r){
                 this.R = r;
             } 
