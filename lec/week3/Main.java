@@ -1,4 +1,4 @@
-package lec.week2;
+package lec.week3;
 
 public class Main {
 
@@ -9,6 +9,9 @@ public class Main {
         Circle c1 = new Circle(Radius);
         System.out.println(c1.getArea());
         System.out.println(c1.c());
+        System.out.println(c1.getR());
+        c1.SetR(14);
+        System.out.println(c1.getR());
         
     }
 

@@ -1,4 +1,4 @@
-package lec.week2;
+package lec.week3;
 
 public class Circle {
 
@@ -14,6 +14,14 @@ public class Circle {
             public Circle(){
                 this.R = 5;
             }
+            
+        public double getR(){
+            return R;
+        }
+        public void SetR(double r){
+            if(r>0)
+                this.R =r;
+        }
     
 
     public double getArea(){
