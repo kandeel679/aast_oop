@@ -8,6 +8,9 @@ public class TestStock {
     Stock s4 = new Stock();       
     s4.setNmae("nour");
     System.out.println(s4.getName() );
+    System.out.println(s3.getName() );
+    System.out.println(s2.getName() );
+    System.out.println(s1.getName() );
 
     }
 }
