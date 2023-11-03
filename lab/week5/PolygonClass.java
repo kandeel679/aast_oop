@@ -26,7 +26,7 @@ public class PolygonClass {
         this.x = x;
     }
 
-    //geters and seters 
+    //getters and setters 
         public int getN() {
             return n;
         }

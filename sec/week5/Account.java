@@ -18,8 +18,8 @@ public class Account {
         this.dataCreated = new Date();
     }
     
-    // geters and seters
-        //  geters
+    // getters and setters
+        //  getters
         public Date getDate(){
             return this.dataCreated;
         }
@@ -32,7 +32,7 @@ public class Account {
         public double getAnnuallntereRate(){
             return this.annuallntereRate;
         }
-        //seters
+        //setters
         public void setId(int id){
             this.id = id;
         }

@@ -8,10 +8,10 @@ public class st {
         i++;
     }
     public static void main(String[] args) {
-        st obj1 = new st();
-        st obj2 = new st();
-        System.out.println(obj1.s + "\n" + obj1.i);
-        System.out.println(obj2.s + "\n" + obj2.i);
+        // st obj1 = new st();
+        // st obj2 = new st();
+        // System.out.println(obj1.s + "\n" + obj1.i);
+        // System.out.println(obj2.s + "\n" + obj2.i);
         
         System.out.println(st.s);
 
