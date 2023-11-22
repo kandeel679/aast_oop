@@ -4,6 +4,7 @@ public class Author {
     public Book[] list;
     public int totalBooks;
     public double totalPrices;
+    // Constructor
     public Author(String name, int ssn, Book[] list) {
         this.name = name;
         this.ssn = ssn;

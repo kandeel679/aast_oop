@@ -2,7 +2,6 @@ public class Book {
     public String Tital;
     public int year;
     public double price;
-
     public Book(String Tital){
         this.Tital = Tital;
         this.year = 2010;
@@ -19,11 +18,6 @@ public class Book {
             System.out.println("invalid input: setting the default values");
             this.price = 1500;
         }else{this.price = price;}
-        
     }
-
-
-    
-
 }
 
