@@ -20,8 +20,7 @@ public class Turtle {
         }else{
             switch (this.direction) {
                 case "North":
-                    this.yPos++;
-                    break;
+                    this.yPos++;break;
                 case "South":
                     this.yPos--;
                     break;
