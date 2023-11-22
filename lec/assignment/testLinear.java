@@ -18,6 +18,7 @@ public class testLinear {
         LinearEquation linear = new LinearEquation(a,b,c,d,e,f);
         System.out.println("The solution is "+linear.getY());
         System.out.println("The solution is "+linear.getX());
+        input.close();
 
     }
 }

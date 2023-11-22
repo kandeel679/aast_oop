@@ -38,6 +38,7 @@ public class Testmain {
         game.team1Goal(t1.getPlayer()[4]);
         game.team2Goal(t2.getPlayer()[7]);
         System.out.println(game.GetWinner());
+        input.close();
         
     }
 }

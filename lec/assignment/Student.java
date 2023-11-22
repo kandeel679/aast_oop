@@ -1,5 +1,7 @@
 package lec.assignment;
 
+import java.util.Arrays;
+
 public class Student {
     private static int count = 0;
     private int id;
@@ -54,6 +56,11 @@ public class Student {
                     break;
             }           
         }
+    }
+    @Override
+    public String toString() {
+        return "Student [id=" + id + ", name=" + name + ", totalPoints=" + totalPoints + ", gpa=" + gpa
+                + ", arrayOfGrades=" + Arrays.toString(arrayOfGrades) + "]";
     }
     public double calculateGPA() {
         gpa = (double)totalPoints / 9;

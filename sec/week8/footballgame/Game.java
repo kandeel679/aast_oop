@@ -31,6 +31,13 @@ public class Game {
         else if(team1Goals<team2Goals)
             return Team2.getName();
         else
-            return "it's a tie";
+        return "it's a tie";
+    }
+
+    
+    @Override
+    public String toString() {
+        return "Game [name=" + name + ", Team1=" + Team1 + ", Team2=" + Team2 + ", team1Goals=" + team1Goals
+                + ", team2Goals=" + team2Goals + "]";
     }
 }
