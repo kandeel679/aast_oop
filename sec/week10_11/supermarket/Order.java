@@ -50,7 +50,7 @@ public class Order {
     }
     public static void setDeliveryfree(double deliveryfree) {
         Deliveryfree = deliveryfree;
-    }
+    }    
     public void setCancelled(boolean cancelled) {
         this.cancelled = cancelled;
     }
