@@ -1,4 +1,4 @@
-package sec.week10.supermarket;
+package sec.week10_11.supermarket;
 
 public class Address {
     private String city;

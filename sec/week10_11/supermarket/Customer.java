@@ -1,11 +1,11 @@
-package sec.week10.supermarket;
+package sec.week10_11.supermarket;
 
 import java.util.ArrayList;
 
 public class Customer {
     private String name;
     private Address a1;
-    private ArrayList<Order> order = new ArrayList<>();
+    private ArrayList<Order> orders = new ArrayList<>();
     public Customer(String name,Address a1){
         this.name = name;
         this.a1 = a1;
@@ -13,7 +13,7 @@ public class Customer {
     }
 
     public int NumOfOrders(){
-        return order.size();
+        return orders.size();
     }
     
     // TotalOrdersInvoice
@@ -35,7 +35,14 @@ public class Customer {
         this.a1 = a1;
     }
     public void AddOrder(Order o){
-        order.add(o);
+        orders.add(o);
     }
+    public void removeOeder(int intdex ){
+        Order o = orders.get(intdex);
+        if (orders.contains(o)) {
+            orders.remove(o);
+        }
+    }   
+    
     
 }
